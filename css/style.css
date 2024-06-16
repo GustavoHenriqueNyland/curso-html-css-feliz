@@ -17,22 +17,7 @@ body{
 .cabecalho nav{
     text-align: right;
 }
-.cabecalho a{
-    display: inline-flex;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    margin-right: 30px;
-}
-.cabecalho a::before{
-    content: "";
-    background-color: #1b7dd3;
-    width: 10px;
-    height: 10px;
-    margin-right:5px;
-}
+
 H1{
     color: white;
     font-size: 40px;
