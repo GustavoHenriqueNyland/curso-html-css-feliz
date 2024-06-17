@@ -2,21 +2,12 @@ body{
     background-color: darkblue;
     font-family: poppins, Arial, Helvetica, sans-serif;
 }
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 10px solid #000;
-    padding: 10px 20px;
-    background-color: #3894eb;
-}
-.cabecalho img{
+
+.logo{
     width: 80px;
     height: 80px;
 }
-.cabecalho nav{
-    text-align: right;
-}
+
 
 H1{
     color: white;

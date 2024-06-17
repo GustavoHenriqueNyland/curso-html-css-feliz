@@ -1,4 +1,4 @@
-.cabecalho a{
+.action{
     display: inline-flex;
     align-items: center;
     color: white;
@@ -7,7 +7,7 @@
     text-decoration: none;
     margin-right: 30px;
 }
-.cabecalho a::before{
+.action::before{
     content: "";
     background-color: #1b7dd3;
     width: 10px;
