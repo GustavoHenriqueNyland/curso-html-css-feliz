@@ -23,3 +23,17 @@
 .button:active{
     color: #1334eca8;
 }
+
+.button.-btColor{
+    background-color: darkgoldenrod ;
+}
+.button.-btColor:hover{
+    background-color: gold ;
+}
+.button.-btColor:active{
+    color: darkorange ;
+}
+.button.-btSmall{
+    height: 35px;
+    width: 90%;
+}
