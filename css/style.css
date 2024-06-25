@@ -2,18 +2,12 @@ body{
     background-color: darkblue;
     font-family: poppins, Arial, Helvetica, sans-serif;
 }
-.cabecalho{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 10px solid #000;
-    padding: 10px 20px;
-    background-color: #3894eb;
-}
-.cabecalho img{
+
+.logo{
     width: 80px;
     height: 80px;
 }
+<<<<<<< HEAD
 .cabecalho nav{
     text-align: right;
 }
@@ -37,4 +31,14 @@ H1{
     color: white;
     font-size: 40px;
     text-shadow: 4px 4px 5px #fff;
+=======
+
+
+H1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 4px 5px #fff;
+    background-color:teal;
+    text-align: center;
+>>>>>>> 6096aa5210aca76e6482a2b75e1d712ad3560807
 }
