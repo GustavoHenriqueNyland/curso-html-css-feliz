@@ -7,7 +7,7 @@ body{
     width: 80px;
     height: 80px;
 }
-<<<<<<< HEAD
+
 .cabecalho nav{
     text-align: right;
 }
@@ -31,7 +31,7 @@ H1{
     color: white;
     font-size: 40px;
     text-shadow: 4px 4px 5px #fff;
-=======
+}
 
 
 H1{
@@ -40,5 +40,4 @@ H1{
     text-shadow: 4px 4px 5px #fff;
     background-color:teal;
     text-align: center;
->>>>>>> 6096aa5210aca76e6482a2b75e1d712ad3560807
 }
