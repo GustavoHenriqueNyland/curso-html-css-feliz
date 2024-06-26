@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="css/components/section.css">
         <link rel="stylesheet" href="css/components/wrapper.css">
         <link rel="stylesheet" href="css/components/card.css">
+
         <title>MIGUEL SUPER LEGAL</title>
     </head>
     <body>
@@ -32,11 +33,10 @@
                 <button class="button" href="#">pesquisa</button>
             </nav>          
         </header> 
-        
         <section class="banner">
-            <h1>MIGUEL HENRIQUE</h1>
+            <h1>COLEÇÃO MIGUEL HENRIQUE</h1>
         </section>
-        <section class="section">
+        <section class="section-edicao">
             <h1>section edições</h1>
             <div class="wrapper-edicao">
                 <article>edição-1</article>
@@ -45,12 +45,12 @@
                 <article>edição-4</article>
             </div>
         </section>
-        <section class="section">
+        <section class="section-card">
             <h1>section cards</h1>
             <div class="wrapper-card">
                 <figure class="card">
                     <img src="image/card1.bmp" alt="">
-                    <button class="button -btColor -btSmall">saiba mais</button>
+                    <button name="btn-1" class="button -btColor -btSmall">saiba mais</button>
                 </figure>
                 <figure class="card">
                     <img src="image/card2.bmp" alt="">
@@ -73,6 +73,18 @@
                     <button class="button -btColor -btSmall">saiba mais</button>
                 </figure>
             </div>
+            <button class="button -btSmall -btn-load" >LOAD MORE</button>
         </section>
+
+        
+        <section class="section-sobre">
+            <h1>section sobre</h1>
+            <div class="wrapper-sobre">
+                <article>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum beatae aliquid at quia, exercitationem dolores doloribus dicta, minima ducimus magnam ex id cupiditate dolorem architecto quibusdam nihil atque expedita minus!-1</article>
+                <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, voluptatum exercitationem nihil eaque tempora facere excepturi necessitatibus, accusantium, voluptatem a voluptatibus ut in tenetur nisi saepe eum veritatis blanditiis! Soluta. -2</article>
+            </div>
+        </section>
+
+        <script src="js/components/loadMoreCards.js"></script>
     </body>
 </html>
