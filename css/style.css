@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background-color: #1c0bd4;
     font-family: poppins, Arial, Helvetica, sans-serif;
@@ -20,4 +21,27 @@ H1{
 }
 @keyframes gira-logo {
     to {transform: rotate(360deg);}
+=======
+body{
+    background-color: darkblue;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    animation: gira-logo 4s linear infinite;
+}
+
+
+H1{
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 4px 5px #fff;
+    background-color:teal;
+    text-align: center;
+}
+@keyframes gira-logo {
+    to {transform: rotate(360deg);}
+>>>>>>> 31237b5417dace5e0b099cac66679bd757265fc0
   }

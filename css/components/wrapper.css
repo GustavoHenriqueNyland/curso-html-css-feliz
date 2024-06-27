@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrapper-card, .wrapper-edicao, .wrapper-sobre , .wrapper-slides{
     display: flex;
     flex-wrap: wrap;
@@ -28,4 +29,12 @@
     object-fit: cover;
     height: 642px;
     width: 440px;
+=======
+.wrapper-card, .wrapper-edicao, .wrapper-sobre{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+>>>>>>> 31237b5417dace5e0b099cac66679bd757265fc0
 }
