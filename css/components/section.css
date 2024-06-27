@@ -1,6 +1,26 @@
-.section{
-    background-color: coral;
-    padding-top: 50px;
+.section-edicao, .section-card, .section-sobre, .section-slides{
+    color: #fff;
+    padding-top: 10px;
     padding-bottom: 100px;
     border-bottom: 10px solid #000;
+}
+.section-card{
+    background-color: #1308b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-edicao{
+    background-color:#090495 ;
+
+}
+.section-sobre{
+    background-color: #000076;
+}
+.section-slides{
+    background-color: #1a00c3;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

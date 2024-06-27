@@ -1,18 +1,23 @@
 body{
-    background-color: darkblue;
+    background-color: #1c0bd4;
     font-family: poppins, Arial, Helvetica, sans-serif;
 }
 
 .logo{
     width: 80px;
     height: 80px;
+    animation: gira-logo 4s linear infinite;
 }
 
 
 H1{
     color: white;
     font-size: 40px;
-    text-shadow: 4px 4px 5px #fff;
-    background-color:teal;
+    text-shadow: 4px 4px 6px #fff;
     text-align: center;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
+@keyframes gira-logo {
+    to {transform: rotate(360deg);}
+  }

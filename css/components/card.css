@@ -4,8 +4,11 @@
     flex-direction: column;
     margin-right: 10px;
     margin-bottom: 10px;
-    
+    transition: transform .8s ease-in-out ;
 }
 .card img{
     margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.2);
 }
