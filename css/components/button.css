@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .button{
     background-color: #1c0bd4;
     color: #fff;
@@ -41,48 +41,4 @@
 .button.-btn-load{
     width: 200px;
     margin-top: 20px;
-=======
-.button{
-    background-color: #1b7dd3;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: inherit;
-    outline-style: none;
-    border: none;
-    border-radius: 10px;
-    height: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-right: 0;
-    box-shadow: 5px -5px 8px #0c0753;
-    transition: transform 100ms cubic-bezier(.42,0,.82,2.78);
-}
-.button:hover{
-    background-color: cornflowerblue;
-    box-shadow: -5px 5px 8px #0c0753;
-    transform: scale(1.10);
-}
-
-.button:active{
-    color: #1334eca8;
-}
-
-.button.-btColor{
-    background-color: darkgoldenrod ;
-}
-.button.-btColor:hover{
-    background-color: gold ;
-}
-.button.-btColor:active{
-    color: darkorange ;
-}
-.button.-btSmall{
-    height: 35px;
-    width: 90%;
-}
-.button.-btn-load{
-    width: 200px;
-    margin-top: 20px;
->>>>>>> 31237b5417dace5e0b099cac66679bd757265fc0
 }

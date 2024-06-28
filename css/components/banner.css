@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .banner{
     background-image: url(../../image/bannerBackground.png);
     background-repeat: no-repeat;
@@ -9,15 +9,5 @@
     display: flex;
     flex-direction: column;
 }
-=======
-.banner{
-    background-image: url(../../image/bannerBackground.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: center;
-    height: 800px;
-    border-bottom: 10px solid #000;
-    display: flex;
-    flex-direction: column;
-}
->>>>>>> 31237b5417dace5e0b099cac66679bd757265fc0
+
+
