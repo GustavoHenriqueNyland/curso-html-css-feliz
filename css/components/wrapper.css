@@ -116,3 +116,29 @@ https://www.lundevweb.com/
     background-position:  top ;
     z-index: 1;
 }
+@media screen and (max-width: 1023px) {
+    .slider-banner .slider-slider{
+        width: 160px;
+        height: 200px;
+        left: calc(50% - 80px);
+    }
+    .slider-banner .slider-slider .slider-item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(300px);
+    }
+   
+}
+@media screen and (max-width: 767px) {
+    .slider-banner .slider-slider{
+        width: 100px;
+        height: 150px;
+        left: calc(50% - 50px);
+    }
+    .slider-banner .slider-slider .slider-item{
+        transform: 
+            rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+            translateZ(180px);
+    }
+ 
+}
