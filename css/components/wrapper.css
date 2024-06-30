@@ -74,8 +74,8 @@ https://www.lundevweb.com/
 .slider-banner .slider-slider{
     position: absolute;
     width: 200px;
-    height: 250px;
-    top: 10%;
+    height: 260px;
+    top: 15%;
     left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -97,10 +97,10 @@ https://www.lundevweb.com/
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
         translateZ(550px);
 }
-.slider-banner .slider .slider-item img{
+.slider-banner .slider-slider .slider-item img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
