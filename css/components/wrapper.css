@@ -36,6 +36,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 60px;
+    border-bottom: 10px solid #000;
 }
 #slider{
     width: 440px;
@@ -53,4 +54,65 @@
 }
 #slider img.selected{
     opacity: 1;
+}
+
+
+
+/* -----------------------------
+https://www.lundevweb.com/
+------------------------------ */
+
+
+.slider-banner{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-bottom: 10px solid #000;
+}
+.slider-banner .slider-slider{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 10%;
+    left: calc(50% - 100px);
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 50s linear infinite;
+    z-index: 2;
+}
+@keyframes autoRun{
+    from{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(0deg);
+    }to{
+        transform: perspective(1000px) rotateX(-16deg) rotateY(360deg);
+    }
+}
+
+.slider-banner .slider-slider .slider-item{
+    position: absolute;
+    inset: 0 0 0 0;
+    transform: 
+        rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
+        translateZ(550px);
+}
+.slider-banner .slider .slider-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.slider-banner .slider-content .slider-model{
+    background-image: url(../../image/Ceruledge-640x1136.jpg);
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-size: auto 130%;
+    background-repeat: no-repeat;
+    background-position:  top ;
+    z-index: 1;
 }

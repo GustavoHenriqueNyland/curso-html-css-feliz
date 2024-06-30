@@ -5,10 +5,27 @@
     margin-right: 10px;
     margin-bottom: 10px;
     transition: transform .8s ease-in-out ;
+    /* animation: moveCard 4s linear infinite; */
+   
+   
 }
 .card img{
     margin-bottom: 10px;
 }
 .card:hover{
     transform: scale(1.2);
+   /* animation-play-state: paused; */
+    
+   
+}
+[data-animation='moveCard'] {
+    animation: moveCard 4s linear infinite;
+  }
+
+
+@keyframes moveCard{
+    0%{transform: perspective(1000px) rotateX(0deg) rotateY(0deg);}
+    33%{transform: perspective(1000px) rotateX(16deg) rotateY(30deg);}
+    66%{transform: perspective(1000px) rotateX(-16deg) rotateY(-30deg);}
+    100%{transform: perspective(1000px) rotateX(0deg) rotateY(0deg);}
 }
